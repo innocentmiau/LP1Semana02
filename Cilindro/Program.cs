@@ -24,7 +24,11 @@ namespace Cilindro
             double a = double.Parse(Console.ReadLine());
             Console.WriteLine("Raio do cilindro: ");
             double r = double.Parse(Console.ReadLine());
-            
+
+            double volume = Math.PI * Math.Pow(r, 2) * a;
+            Console.WriteLine($"Volume do cilindro: {volume:F3}");
+            double area = 2 * Math.PI * (r * (r + a));
+            Console.WriteLine($"Área da superfície do cilindro: {area:F3}");
         }
     }
 }
