@@ -11,6 +11,8 @@ namespace SmoothOperator
             
             Console.WriteLine($"Number: {--n}");
             Console.WriteLine($"Number: {++n}");
+
+            bool truesteFormOfTrueing = (n == 5) ? !false : !true;
         }
     }
 }
