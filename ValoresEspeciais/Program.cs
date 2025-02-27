@@ -39,6 +39,16 @@ namespace ValoresEspeciais
             decimal decimal_max = decimal.MaxValue;
             decimal decimal_min = decimal.MinValue;
             Console.WriteLine($"decimal máximo: {decimal_max}\ndecimalmínimo: {decimal_min}");
+
+            float float_min_infinite = float.NegativeInfinity;
+            float float_max_infinite = float.PositiveInfinity;
+            float float_nan = float.NaN;
+            Console.WriteLine($"float máximo infinito: {float_min_infinite}\nfloat mínimo infinito: {float_max_infinite}\nfloat NaN: {float_nan}");
+
+            double double_min_infinite = double.NegativeInfinity;
+            double double_max_infinite = double.PositiveInfinity;
+            double double_nan = double.NaN;
+            Console.WriteLine($"double máximo infinito: {double_min_infinite}\ndouble mínimo infinito: {double_max_infinite}\ndouble NaN: {double_nan}");
         }
     }
 }
