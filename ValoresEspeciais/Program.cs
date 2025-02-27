@@ -1,0 +1,44 @@
+﻿using System;
+
+namespace ValoresEspeciais
+{
+    public class Program
+    {
+        private static void Main(string[] args)
+        {
+            byte byte_max = byte.MaxValue;
+            byte byte_min = byte.MinValue;
+            Console.WriteLine($"byte máximo: {byte_max}\nbyte mínimo: {byte_min}");
+            sbyte sbyte_max = sbyte.MaxValue;
+            sbyte sbyte_min = sbyte.MinValue;
+            Console.WriteLine($"sbyte máximo: {sbyte_max}\nsbyte mínimo: {sbyte_min}");
+            short short_max = short.MaxValue;
+            short short_min = short.MinValue;
+            Console.WriteLine($"short máximo: {short_max}\nshort mínimo: {short_min}");
+            ushort ushort_max = ushort.MaxValue;
+            ushort ushort_min = ushort.MinValue;
+            Console.WriteLine($"ushort máximo: {ushort_max}\nushort mínimo: {ushort_min}");
+            int int_max = int.MaxValue;
+            int int_min = int.MinValue;
+            Console.WriteLine($"int máximo: {int_max}\nint mínimo: {int_min}");
+            uint uint_max = uint.MaxValue;
+            uint uint_min = uint.MinValue;
+            Console.WriteLine($"uint máximo: {uint_max}\nuint mínimo: {uint_min}");
+            long long_max = long.MaxValue;
+            long long_min = long.MinValue;
+            Console.WriteLine($"long máximo: {long_max}\nlong mínimo: {long_min}");
+            ulong ulong_max = ulong.MaxValue;
+            ulong ulong_min = ulong.MinValue;
+            Console.WriteLine($"ulong máximo: {ulong_max}\nulong mínimo: {ulong_min}");
+            float float_max = float.MaxValue;
+            float float_min = float.MinValue;
+            Console.WriteLine($"float máximo: {float_max}\nfloat mínimo: {float_min}");
+            double double_max = double.MaxValue;
+            double double_min = double.MinValue;
+            Console.WriteLine($"double máximo: {double_max}\ndouble mínimo: {double_min}");
+            decimal decimal_max = decimal.MaxValue;
+            decimal decimal_min = decimal.MinValue;
+            Console.WriteLine($"decimal máximo: {decimal_max}\ndecimalmínimo: {decimal_min}");
+        }
+    }
+}
